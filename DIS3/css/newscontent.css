@@ -1,0 +1,129 @@
+﻿body {
+	background-color: #F9F9F9 ;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	height: auto;
+	display: block;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.tempate_main {
+	display: block;
+	clear: both;
+	width: 950px;
+	margin: 0 auto;
+	position: relative;
+	height: auto;
+}
+h5 {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+}
+/* banner 图片*/
+	#bannerWrap {
+	width: 100%;
+	height: 301px;
+	margin: 0 auto;
+	background: #f48351 url(../images/banner_repeater.jpg) repeat-x;
+}
+#navigator {
+	width: 950px;
+	margin: 0 auto;
+}
+/* end of banner*/
+	#newslist-content {
+	float: left;
+	width: 950px;
+	position: relative;
+	height: auto;
+}
+#newslist-content-head {
+	position: relative;
+	height: 38px;
+}
+/*news-content-text-*/
+	#news-cont {
+	padding-left: 50px;
+	height: auto;
+}
+#news-cont div,#news-cont p,#news-cont span {
+	font-size: 14px;
+	margin: 15px;
+	word-spacing: 2px;
+	height: auto;
+}
+#news-cont h1,h2,h3,h4,h5,strong {
+	/* font-size: 20px;*/
+	height: auto;
+}
+#newslist-con
+{
+    margin:20px auto;
+}
+#news-title {
+	font-size: 22px;
+	text-align: center;
+	height: auto;
+}
+.title5 {
+	font-size: 15px;
+	padding: 10px;
+	width: 160px;
+	margin: 0px;
+	margin-bottom: 5px;
+	border-bottom: solid 1px black;
+	height: auto;
+}
+#news-date,#news-author,#news-author span, #visit {
+	margin: 3px;
+	font-weight: 200;
+	font-size: 13px;
+	text-align: center;
+	height: auto;
+}
+#font-choose {
+	text-align: center;
+	height: auto;
+}
+.curoff {
+	margin: 7px auto;
+	width: 90%;
+	height: auto;
+	text-align: center;
+}
+li {
+	list-style-type: none;
+}
+.title_left_ban {
+	font-size: 16px;
+	width: 940px;
+	margin-top: 20px;
+	height: 20px;
+	padding-top: 3px;
+	padding-left: 9px;
+	padding-bottom: 2px;
+}
+.breadCrumb {
+	font-size: 16px;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+}
+.title {
+	font-size: 13px;
+	height: auto;
+}
+#flpage {
+	position: relative;
+	float: left;
+	width: 90%;
+	height: 40px;
+	margin-left: 240px;
+	margin-bottom: 10px;
+	margin-top: auto;
+}	

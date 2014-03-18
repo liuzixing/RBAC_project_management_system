@@ -1,0 +1,190 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminConsole.master.cs"
+    Inherits="Master_AdminConsole" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equtv="Pragma" content="no-cache">
+    <meta http-equtv="Cache-Control" content="no-cache">
+    <meta http-equtv="Expires" content="0">
+    <title>数字创新加油站</title>
+    <link href="../css/admin-global.css" type="text/css" rel="Stylesheet" />
+    <script type="text/javascript" src="../js/jquery-1.5.1.js"></script>
+    <script type="text/javascript" src="../js/management.js"></script>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="head">
+    
+        <div id="headbar">
+
+            <div  style="float:left" id="headbar_logo" onclick="location.href='<%= ResolveUrl("~/admin/Index.aspx") %>'">
+     <div  style="position:absolute; right:450px; top:60px">
+<asp:HyperLink ID="Information" runat="server" NavigateUrl="~/admin/Information.aspx" 
+             Height="16px" ForeColor="White">[Information]</asp:HyperLink>
+     </div>
+            </div>
+            
+           
+            <div id="headbar_toolbar">
+            
+                <table border="0" cellspacing="0" cellpadding="0">
+                
+                    <tr>
+                        <td>
+                            <a id="headbar_toolbar_index" href="<%= ResolveUrl("~/admin/Index.aspx") %>">
+                                <div class="text">
+                                    首页</div>
+                            </a>
+                        </td>
+                        <td>
+                            <a id="headbar_toolbar_user" href="<%= ResolveUrl("~/admin/Information.aspx") %>">
+                                <div class="text">
+                                    账户</div>
+                            </a>
+                        </td>
+                        <td>
+                            <a id="headbar_toolbar_help" href="#">
+                                <div class="text">
+                                    帮助</div>
+                            </a>
+                        </td>
+                        <td>
+                            <a id="headbar_toolbar_logout" href="<%= ResolveUrl("~/Account/Login.aspx") %>">
+                                <div class="text">
+                                    退出</div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="bg-top">
+    </div>
+    <div id="newseditor-container">
+        <form id="form1" runat="server">
+        <div id="sidebar">
+            <div id="sidebar-list">
+                <h3>
+                    管理中心</h3>
+                <ul id="sidebar-content">
+
+                    <li><a class="a_level1" href="#" id="a5">
+                        <div class="li_icon_fold">
+                        </div>
+         
+                        <span class="level1"><a id="siderbar_about" href="AboutOilMage.aspx">关于加油站管理</a></span></a>
+                    </li>
+
+                    <li><a class="a_level1" href="#" id="a1">
+                        <div class="li_icon_fold">
+                        </div>
+
+                        <span class="level1"><a id="siderbar_news" href="NewsManage.aspx">加油站新闻管理</a></span></a>
+                    </li>
+
+                    <li><a class="a_level1" href="#" id="a4">
+                        <div class="li_icon_fold">
+                        </div>
+
+                        <span class="level1"><a id="siderbar_project" href="ProjectManage.aspx">加油站项目管理</a></span></a> 
+                    </li>
+
+                    <li><a class="a_level1" href="#" id="a3">
+                        <div class="li_icon_fold">
+                        </div>
+            
+                        <span class="level1"><a id="siderbar_recruit" href="RecruitDutyManage.aspx">加油站招新管理</a></span></a>
+                    </li>
+                    <li><a class="a_level1" href="#" id="a6">
+                        <div class="li_icon_fold">
+                        </div>
+           
+                        <span class="level1"><a id="siderbar_plan" href="PlanMage.aspx">加油站计划管理</a></span></a>
+                    </li>
+                    <li><a class="a_level1" href="#" id="a7">
+                        <div class="li_icon_fold">
+                        </div>
+   
+                        <span class="level1"><a id="siderbar_enterprise" href="EnterprisesMage.aspx">合作企业管理</a></span></a>
+                    </li>
+                    <li><a class="a_level1" href="#" id="a8">
+                        <div class="li_icon_fold">
+                        </div>
+
+                        <span class="level1"><a id="siderbar_digital" href="DigitalMage.aspx">无象数码管理</a></span></a>
+                    </li>
+                    <li><a class="a_level1" href="#" id="a9">
+                        <div class="li_icon_fold">
+                        </div>
+
+                        <span class="level1"><a id="siderbar_picture" href="HeadPictureMage.aspx">加油站图片管理</a></span></a>
+                    </li>
+                     <li><a class="a_level1" href="#" id="a2">
+                        <div class="li_icon_fold">
+                        </div>
+
+                        <span class="level1"><a id="siderbar_enterprise" href="UserManage.aspx">用户管理</a></span></a>
+                    </li>
+
+                    <li><a class="a_level1" href="#" id="a10">
+                        <div class="li_icon_fold">
+                        </div>
+                        
+                        <span class="level1"><a id="siderbar_picture" href="RoleManage.aspx">角色管理</a></span></a>
+                    </li>
+                   
+                  <!--  <li><a class="a_level1" href="#" id="a9">
+                        <div class="li_icon_fold">
+                        </div>
+                        <span class="jia" id="09">+</span> <span class="level1">油站图片管理</span> </a>
+                        <ul class="ul_level1" id="9">
+                            <li class="level2" id="91"><a href="HeadPictureMage.aspx">编辑顶部图片</a> </li>
+                            <li class="level2" id="92"><a href="button.aspx">编辑图标</a> </li>
+                             --> 
+                     <!-- <li><a class="a_level2"
+                    href="#" id="a10"> <div class="li_icon_fold"> </div> <span class="jia" id="010">+</span>
+                    <span class="level2">图片分类</span></a> <ul class="ul_level1" id="10"> <li class="level3"
+                    id="101">新闻图片</li> <li class="level3" id="102">产品图片</li> <li class="level3" id="103">项目图片</li>
+                    <li class="level3" id="104">其它图片</li> </ul> </li>--> </ul> <!-- </li>
+                    <li><a class="a_level1" href="#" id="a11">
+                        <div class="li_icon_fold">
+                        </div>
+                        <span class="jia" id="011">+</span> <span class="level1">友情链接</span></a>
+                        <ul class="ul_level1" id="11">
+                            <li class="level2" id="111">添加链接</li>
+                            <li class="level2" id="112">链接列表</li>
+                        </ul>
+                    </li>
+                    <li><a class="a_level1" href="#" id="a12">
+                        <div class="li_icon_fold">
+                        </div>
+                        <span class="jia" id="012">+</span> <span class="level1">网站设置</span></a>
+                        <ul class="ul_level1" id="12">
+                            <li class="level2" id="123">标题/LOGO设置</li>
+                            <li class="level2" id="124">页脚信息设置</li>
+                            <li class="level2" id="125">网页关键字设置</li>
+                            <li class="level2" id="126">数据库备份/恢复</li>
+                        </ul>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </div>
+        <script>
+            $('.present').removeAttr("href");
+        </script>
+        <div id="news-editor">
+            <div id="content">
+                <div id="content_in">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OilprojectDirections>
+  <OilProjectDirection value="种玉米方向">
+    <ProjectName id="111">我要种玉米</ProjectName>
+    <ProjectName id="110">二百五</ProjectName>
+    <ProjectName id="100">浇水</ProjectName>
+    <ProjectName id="99">撒种</ProjectName>
+    <ProjectName id="98">播种</ProjectName>
+  </OilProjectDirection>
+  <OilProjectDirection value="收玉米方向">
+    <ProjectName id="102">晒晒</ProjectName>
+    <ProjectName id="101">收割</ProjectName>
+  </OilProjectDirection>
+  <OilProjectDirection value="喂玉米方向">
+    <ProjectName id="103">剥皮</ProjectName>
+  </OilProjectDirection>
+  <OilProjectDirection value="二百玉米方向">
+    <ProjectName id="104">二百五</ProjectName>
+  </OilProjectDirection>
+  <OilProjectDirection value="四百玉米方向">
+    <ProjectName id="109">餐饮订票系统</ProjectName>
+    <ProjectName id="108">航空订票系统</ProjectName>
+  </OilProjectDirection>
+  <OilProjectDirection value="八百玉米方向" />
+</OilprojectDirections>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap>
+  <siteMapNode url="~/index.aspx" title="首页" description="">
+    <siteMapNode url="~news/NewsTempate.aspx" title="油站新闻" description="newsCenter">
+      <siteMapNode url="~/news/NewsContent.aspx" title="新闻正文" description="category" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/NewRecruitsCenter.aspx" title="油站招新" description="">
+      <siteMapNode url="~/oilStation/NewRecruitsContent.aspx" title="正文" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/AboutOil.aspx" title="关于油站" description="aboutOil11">
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=0" title="FAQ" description="FAQ" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=24" title="1211" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=23" title="121" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=22" title="121" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=21" title="111231" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=20" title="11112" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=19" title="11112" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=18" title="121" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=17" title="12123" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=16" title="12123" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=15" title="1212" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=14" title="13" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=13" title="12" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=12" title="12333333" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=11" title="123333" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=10" title="了解油站" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=9" title="12" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=3" title="联系油站" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=2" title="创始人" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=1" title="了解油站" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/stationPlans.aspx" title="油站计划" description="">
+      <siteMapNode url="~/oilStation/stationPlans.aspx?PlanClassifyID=1" title="创意征集计划" description="" />
+      <siteMapNode url="~/oilStation/stationPlans.aspx?PlanClassifyID=2" title="立项计划" description="" />
+      <siteMapNode url="~/oilStation/stationPlans.aspx?PlanClassifyID=3" title="市场化计划" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/Project.aspx" title="油站项目" description="">
+      <siteMapNode url="~/oilStation/Project.aspx?OilProjectID=1" title="智能几何教育平台" description="" />
+      <siteMapNode url="~/oilStation/Project.aspx?OilProjectID=2" title="移动销售平台" description="" />
+      <siteMapNode url="~/oilStation/Project.aspx?OilProjectID=3" title="缤果手机游戏" description="" />
+      <siteMapNode url="~/oilStation/Project.aspx?OilProjectID=4" title="涂鸦课堂" description="" />
+      <siteMapNode url="~/oilStation/Project.aspx?OilProjectID=5" title="成员感悟" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/coEnterprise.aspx" title="合作企业" description="">
+      <siteMapNode url="~/oilStation/coEnterprise.aspx?EnterprisesID=1" title="缤果动漫" description="" />
+      <siteMapNode url="~/oilStation/coEnterprise.aspx?EnterprisesID=2" title="德诚教育技术" description="" />
+      <siteMapNode url="~/oilStation/coEnterprise.aspx?EnterprisesID=3" title="财富数码" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/NoLikeDigital.aspx" title="无象数码" description="">
+      <siteMapNode url="~/oilStation/NoLikeDigital.aspx?DigitalID=1" title="目标" description="" />
+      <siteMapNode url="~/oilStation/NoLikeDigital.aspx?DigitalID=2" title="团队成员" description="" />
+      <siteMapNode url="~/oilStation/NoLikeDigital.aspx?DigitalID=3" title="投资组合" description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

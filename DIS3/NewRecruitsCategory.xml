@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NewRecruitsCategorys>
+  <NewRecruitsCategory value="用户体验类">
+    <RecruitsName id="187">职位</RecruitsName>
+    <RecruitsName id="186">我的职位</RecruitsName>
+  </NewRecruitsCategory>
+  <NewRecruitsCategory value="投资团队类">
+    <RecruitsName id="185">喂玉米专业户</RecruitsName>
+    <RecruitsName id="184">玉米传销经理</RecruitsName>
+  </NewRecruitsCategory>
+  <NewRecruitsCategory value="产品类">
+    <RecruitsName id="183">玉米销售经理</RecruitsName>
+  </NewRecruitsCategory>
+  <NewRecruitsCategory value="技术类" />
+  <NewRecruitsCategory value="其他类" />
+</NewRecruitsCategorys>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="gb2312"?>
+<siteMap>
+  <siteMapNode url="~/index.aspx" title="首页" description="">
+    <siteMapNode url="~/news/NewsTempate.aspx" title="油站新闻" description="newsCenter">
+      <siteMapNode url="~/news/NewsContent.aspx" title="新闻正文" description="categorycontent" />
+      <siteMapNode url="~/news/NewsTempate.aspx?NewsYear=2012&amp;month=" title="2012年" description="date" />
+      <siteMapNode url="~/news/NewsTempate.aspx?NewsYear=2012&amp;month=8" title="2012年8月" description="date" />
+      <siteMapNode url="~/news/NewsTempate.aspx?NewsYear=2012&amp;month=7" title="2012年7月" description="date" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/NewRecruitsCenter.aspx" title="油站招新" description="">
+      <siteMapNode url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=116" title="软件开发类" description="">
+        <siteMapNode url="~/oilStation/NewRecruitsContent.aspx?NewRecruitsID=188" title="iOS开发人员" description="" />
+      </siteMapNode>
+      <siteMapNode url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=117" title="软件测试类" description="">
+        <siteMapNode url="~/oilStation/NewRecruitsContent.aspx?NewRecruitsID=189" title="iOS 测试人员（2 人）" description="" />
+      </siteMapNode>
+      <siteMapNode url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=118" title="用户界面设计类" description="">
+        <siteMapNode url="~/oilStation/NewRecruitsContent.aspx?NewRecruitsID=191" title="用户界面工程师" description="" />
+        <siteMapNode url="~/oilStation/NewRecruitsContent.aspx?NewRecruitsID=190" title="视觉设计师实习生" description="" />
+      </siteMapNode>
+      <siteMapNode url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=119" title="产品类" description="" />
+      <siteMapNode url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=120" title="其他类" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/AboutOil.aspx" title="关于油站" description="aboutOil">
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=0" title="FAQ" description="FAQ" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=3" title="联系油站" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=2" title="创始人" description="" />
+      <siteMapNode url="~/oilStation/AboutOil.aspx?AboutOilID=1" title="了解油站" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/stationPlans.aspx" title="油站计划" description="">
+      <siteMapNode url="~/oilStation/stationPlans.aspx?PlanClassifyID=1" title="创意征集计划" description="" />
+      <siteMapNode url="~/oilStation/stationPlans.aspx?PlanClassifyID=2" title="立项计划" description="" />
+      <siteMapNode url="~/oilStation/stationPlans.aspx?PlanClassifyID=3" title="市场化计划" description="" />
+      <siteMapNode url="~/oilStation/planContent.aspx" title="计划详情" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/Project.aspx" title="油站项目" description="">
+      <siteMapNode url="~/oilStation/Project.aspx?OilProjectDirectionID=34" title="ASP.NET互联网应用" description="">
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=122" title="智能销售平台" description="" />
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=120" title="人事信息管理" description="" />
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=118" title="DIS网站" description="" />
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=117" title="DIS+网站" description="" />
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=116" title="财富数码产品中心" description="" />
+      </siteMapNode>
+      <siteMapNode url="~/oilStation/Project.aspx?OilProjectDirectionID=35" title="安卓移动互联网应用" description="">
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=119" title="安卓几何教育" description="" />
+      </siteMapNode>
+      <siteMapNode url="~/oilStation/Project.aspx?OilProjectDirectionID=36" title="苹果移动互联网应用" description="">
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=124" title="涂鸦乐园" description="" />
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=123" title="3D魔方" description="" />
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=115" title="锄大地扑克牌游戏" description="" />
+        <siteMapNode url="~/oilStation/OilProjectContent.aspx?OilProjectID=114" title="缤果对对碰游戏" description="" />
+      </siteMapNode>
+      <siteMapNode url="~/oilStation/Project.aspx?OilProjectDirectionID=37" title="其他" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/coEnterprise.aspx" title="合作企业" description="">
+      <siteMapNode url="~/oilStation/coEnterprise.aspx?EnterprisesID=3" title="财富数码" description="" />
+      <siteMapNode url="~/oilStation/coEnterprise.aspx?EnterprisesID=2" title="德诚教育技术" description="" />
+    </siteMapNode>
+    <siteMapNode url="~/oilStation/NoLikeDigital.aspx" title="无象数码" description="">
+      <siteMapNode url="~/oilStation/NoLikeDigital.aspx?DigitalID=4" title="无象数码" description="" />
+      <siteMapNode url="~/oilStation/NoLikeDigital.aspx?DigitalID=3" title="投资组合 " description="" />
+      <siteMapNode url="~/oilStation/NoLikeDigital.aspx?DigitalID=2" title="团队成员" description="" />
+      <siteMapNode url="~/oilStation/NoLikeDigital.aspx?DigitalID=1" title="目标" description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

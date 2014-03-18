@@ -1,0 +1,156 @@
+﻿body
+{
+   
+    	background-color:#F9F9F9 ;
+    	padding:0px;
+    	margin:0px;
+    	position:relative;
+     height:auto;
+     display:block;
+     font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.tempate_main
+{display:block;
+    clear:both;
+    width:1000px;
+    margin:0 auto;
+  position:relative;
+  height:auto;
+}
+
+a:link, a:visited { color:#000000;  text-decoration: none; } 
+a:active, a:hover { color: #0000FF; text-decoration: none; cursor: pointer;}
+a{
+color:#000000;
+font-weight:normal;
+}
+
+/* banner 图片 */
+#bannerWrap {
+	width: 101%;
+	height: 301px;
+	margin: 0 auto;
+	background: #f48351 url(../images/banner_repeater.jpg) repeat-x;
+}
+
+#navigator {
+	width: 950px;
+	margin:0 auto;
+	
+}
+
+/* end of banner */
+
+#newslist-content
+{
+	float:left;
+	width: 1000px;
+	position:relative;
+    height:auto;
+
+
+}
+
+
+ #newslist-content-head
+{
+	position: relative;
+	height: 38px;
+}
+
+
+
+/*news-content-text-*/
+#news-cont
+{
+     padding-left:50px;
+      height:auto;
+
+}
+#news-cont div,#news-cont p,#news-cont span
+{
+	font-size:14px;
+	margin:15px;
+	word-spacing:2px;
+	 height:auto;
+}
+#news-cont h1,h2,h3,h4,h5,strong
+{
+	font-size:20px;
+	 height:auto;
+}
+#news-title
+{
+	font-size:22px;
+	text-align:center;
+ height:auto;
+}
+.title5
+{	font-size:15px;
+ 	padding:10px;
+    	width:160px;
+	margin:0px;
+	margin-bottom:5px;
+	border-bottom:solid 1px black;
+	 height:auto;
+    
+}
+#news-date,#news-author,#news-author span, #visit
+{
+	margin:3px;
+	font-weight:200;
+	font-size:13px;
+	text-align:center;
+	 height:auto;
+}
+#font-choose
+{
+	text-align:center;
+	 height:auto;
+}
+.curoff
+{
+	margin:5px auto;
+	width:90%;
+	 height:auto;
+	text-align:center;
+}
+
+li
+{
+
+	list-style-type: none;
+}
+.title_left_ban
+{
+ 	border-bottom: 1px solid #959393;
+ 	background-color:#CCCCCC;
+ 	font-size:16px;
+ 	width:1000px;
+
+ 	height:20px;
+    padding-top:3px;
+ 	padding-left:9px;
+ 	padding-bottom:2px;
+}
+
+.title
+{
+  	font-size: 13px;  
+  	 height:auto;
+}
+
+#flpage
+{
+   position:relative;
+   float:left;
+	width:90%;
+	height:40px;
+   margin-left:240px;
+   margin-bottom:10px;
+   margin-top:auto;
+}
+	

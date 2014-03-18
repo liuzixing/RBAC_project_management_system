@@ -1,0 +1,225 @@
+﻿body
+{
+    width:650px;
+   	background: #F9F9F9 ;
+   	margin:0px;
+   	padding:0px;
+   	font-size:14px;
+
+}
+
+h5
+{
+    display:inline;
+    padding:0px;
+    margin:0px;
+} 
+
+a:link, a:visited { color:#000000;  text-decoration: none; } 
+a:active, a:hover { color: #0000FF; text-decoration: none; cursor: pointer;}
+
+
+#right
+{
+    margin-top:20px;
+    margin-right:20px;
+    float:right;
+    min-height:300px;
+  
+}
+
+#left
+{
+    float:left;
+ 
+ 
+}
+
+/*NewsClassBar样式*/
+#contentClass
+{
+	margin:0 15px;
+		width:100px;
+}
+.newslist_classify
+{
+    
+   	width:180px;
+	margin:0px;
+	margin-bottom:5px;
+	border-bottom:solid 1px black;
+	
+}
+.newslist_classify1
+
+{	 
+    width:180px;
+	margin:0px;
+	margin-bottom:5px;
+	border-bottom:solid 1px black;
+}
+.newslist_classify_label
+{
+	float:left;
+	line-height:20px;
+	height:20px;
+	padding:13px;
+	margin-left:-0px;
+
+	font-size:15px;
+}
+.newslist_classify_label1
+{
+	float:left;
+	line-height:20px;
+	height:20px;
+	padding:13px;
+	margin-left:-0px;
+	color:#555;
+	font-size:15px;
+}
+
+#SiteMapPath1
+{
+	float:right;
+	display: block;
+	width: 130px;
+	height: 20px;
+	left: 10px;
+
+}
+
+.newslist_classify_label:hover
+{
+	color:Blue;
+	background-color:#eee;
+}
+.newslist_classify_label1:hover
+{
+	color:Blue;
+	background-color:#eee;
+}
+.newslist_classify_content li
+{
+	height:18px;
+	padding-left:15px;
+}
+.newslist_classify_content li a
+{
+	height:18px;
+	line-height:18px;
+	color:#999;
+	font-size:12px;
+}
+.newslist_classify_content li:hover
+{
+	background-color:#ddd;
+}
+.newslist_classify_content
+{
+	display:none;
+}
+
+
+
+
+.title5
+{	font-size:15px;
+ 	padding:10px;
+    	width:160px;
+	margin:0px;
+	margin-bottom:5px;
+	border-bottom:solid 1px black;
+    
+}
+li
+{
+
+	list-style-type: none;
+}
+.title_left_ban
+{
+ 	border-bottom: 1px solid #959393;
+ 	background-color:#CCCCCC;
+ 	font-size:16px;
+ 	width:688px;
+    padding-top:3px;
+ 	height:21px;
+   
+ 	padding-left:10px;
+ 	padding-bottom:2px;
+ 		
+
+}
+.title
+{
+  	font-size: 13px;  
+}
+form 
+{
+    padding:0px;
+    margin:0px;
+}
+
+.yy
+{
+  
+     text-align:center;
+}
+.pagecontrol
+{
+    width:680px;
+}
+
+#gridView
+{
+    margin-top:18px;
+}
+.title111
+{
+    font-size:13px;
+    font-weight:bold;
+  
+}
+
+
+.pagebar-first 
+{
+
+     padding:2px;
+}
+.pagecontrol
+{
+    margin-top:14px;
+}
+
+.pagebar-last
+{
+
+     padding:2px;
+    
+}
+
+
+.pagebar-prev
+{
+    
+       padding:2px;
+}
+.pagebar-next
+{
+      
+        
+     padding:2px;
+}
+.pagebar-current
+{
+       
+     padding:2px;
+}
+
+
+
+
+
+

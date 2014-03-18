@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<change>
+  <footer>
+    <catalogue value="关于油站" id="1" url="~/oilStation/AboutOil.aspx?AboutOilID=3">
+      <item url="~/oilStation/AboutOil.aspx?AboutOilID=0">FAQ</item>
+      <item url="~/oilStation/AboutOil.aspx?AboutOilID=3">联系油站</item>
+      <item url="~/oilStation/AboutOil.aspx?AboutOilID=2">创始人</item>
+      <item url="~/oilStation/AboutOil.aspx?AboutOilID=1">了解油站</item>
+    </catalogue>
+    <catalogue value="油站新闻" id="2" url="~/news/NewsTempate.aspx">
+      <item url="~/news/NewsTempate.aspx?NewsYear=2012&amp;month=">2012年</item>
+    </catalogue>
+    <catalogue value="油站项目" id="3" url="~/oilStation/Project.aspx">
+      <item url="~/oilStation/OilProjectContent.aspx?OilProjectID=114">缤果对对碰游戏</item>
+      <item url="~/oilStation/OilProjectContent.aspx?OilProjectID=115">锄大地扑克牌游戏</item>
+      <item url="~/oilStation/OilProjectContent.aspx?OilProjectID=116">财富数码产品中心</item>
+      <item url="~/oilStation/OilProjectContent.aspx?OilProjectID=117">DIS+网站</item>
+      <item url="~/oilStation/OilProjectContent.aspx?OilProjectID=118">DIS网站</item>
+    </catalogue>
+    <catalogue value="油站计划" id="4" url="~/oilStation/stationPlans.aspx">
+      <item url="~/oilStation/stationPlans.aspx?PlanClassifyID=1">创意征集计划</item>
+      <item url="~/oilStation/stationPlans.aspx?PlanClassifyID=2">立项计划</item>
+      <item url="~/oilStation/stationPlans.aspx?PlanClassifyID=3">市场化计划</item>
+    </catalogue>
+    <catalogue value="油站招新" id="5" url="~/oilStation/NewRecruitsCenter.aspx">
+      <item url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=116">软件开发类</item>
+      <item url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=117">软件测试类</item>
+      <item url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=118">用户界面设计类</item>
+      <item url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=119">产品类</item>
+      <item url="~/oilStation/NewRecruitsCenter.aspx?NewRecruitsCategoryID=120">其他类</item>
+    </catalogue>
+    <catalogue value="合作企业" id="6" url="~/oilStation/coEnterprise.aspx?EnterprisesID=3">
+      <item url="~/oilStation/coEnterprise.aspx?EnterprisesID=3">财富数码</item>
+      <item url="~/oilStation/coEnterprise.aspx?EnterprisesID=2">德诚教育技术</item>
+    </catalogue>
+  </footer>
+  <Company value="无象数码" url="~/oilStation/NoLikeDigital.aspx?DigitalID=4">
+    <item url="~/oilStation/NoLikeDigital.aspx?DigitalID=4">无象数码</item>
+    <item url="~/oilStation/NoLikeDigital.aspx?DigitalID=3">投资组合 </item>
+    <item url="~/oilStation/NoLikeDigital.aspx?DigitalID=2">团队成员</item>
+    <item url="~/oilStation/NoLikeDigital.aspx?DigitalID=1">目标</item>
+  </Company>
+  <pictures>
+    <picture id="1">
+      <item url="HeadPictureUpload.aspx?Picture=1" id="1">~/images/head/banner_1.jpg</item>
+      <item url="HeadPictureUpload.aspx?Picture=2" id="2">~/images/head/banner_2.jpg</item>
+      <item url="HeadPictureUpload.aspx?Picture=3" id="3">~/images/head/banner_3.jpg</item>
+    </picture>
+    <picture id="2">
+      <item url="HeadPictureUpload.aspx?Picture=11" id="11">~/images/head/vkESz9KhMj.jpg</item>
+      <item url="HeadPictureUpload.aspx?Picture=22" id="22">~/images/head/9KhMj.jpg</item>
+      <item url="HeadPictureUpload.aspx?Picture=33" id="33">~/images/head/DFJI7.jpg</item>
+    </picture>
+  </pictures>
+  <buttons>
+    <buttonImage id="1">
+      <item url="ButtonUpload.aspx?Picture=1" id="1">~/images/button/logo.gif</item>
+      <item url="ButtonUpload.aspx?Picture=2" id="2">~/images/button/SO6yrY3VDx主页.png</item>
+      <item url="ButtonUpload.aspx?Picture=3" id="3">~/images/button/关于油站.png</item>
+      <item url="ButtonUpload.aspx?Picture=4" id="4">~/images/button/油站新闻.png</item>
+      <item url="ButtonUpload.aspx?Picture=5" id="5">~/images/button/油站招新.png</item>
+      <item url="ButtonUpload.aspx?Picture=6" id="6">~/images/button/油站计划.png</item>
+      <item url="ButtonUpload.aspx?Picture=7" id="7">~/images/button//油站项目.png</item>
+      <item url="ButtonUpload.aspx?Picture=8" id="8">~/images/button/合作企业.png</item>
+      <item url="ButtonUpload.aspx?Picture=9" id="9">~/images/button/logo3.gif</item>
+      <item url="ButtonUpload.aspx?Picture=10" id="10">~/images/button/search_botton.png</item>
+      <item url="ButtonUpload.aspx?Picture=11" id="11">~/images/button/menu3.png</item>
+      <item url="ButtonUpload.aspx?Picture=12" id="12">~/images/button/menu6.png</item>
+      <item url="ButtonUpload.aspx?Picture=13" id="13">~/images/button/menu5.png</item>
+    </buttonImage>
+  </buttons>
+</change>

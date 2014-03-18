@@ -1,0 +1,272 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="<%=ResolveUrl("~/Styles/Site.css") %>" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="<%=ResolveUrl("~/images/favicon.png") %>" />
+    <script type="text/javascript" src="<%=ResolveUrl("~/js/jquery-1.5.1.js")%>"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script language="javascript" type="text/javascript">
+// <![CDATA[
+
+        function menu2_onclick() {
+        }
+        function clearText() {
+            window.document.forms[0].elements[0].value = "";
+        }
+// ]]>
+    </script>
+</head>
+<body runat="Server">
+    <div id="container" runat="Server">
+        <!-- Header -->
+        <div id="header_wrapper">
+            <div id="header">
+                <div id="logo">
+                    <a href="<%=ResolveUrl("~/index.aspx") %>">
+                        <img src="<%=buttonImage[0]%>" width="180" height="90" alt="image" /></a></div>
+                <div class="headerTop">
+                    <div class="slogan">
+                        出作品，出人才（Create Works,Cultivate Genius）</div>
+                       <div class="loginDisplay" align="right" >
+                 <asp:HyperLink ID="UserManage" runat="server" NavigateUrl="~/admin/Information.aspx" 
+                               Height="24px"></asp:HyperLink>
+                 &nbsp;
+                 <asp:HyperLink ID="Login" runat="server" NavigateUrl="~/Account/Login.aspx" 
+                     Font-Underline="False" Height="24px"> <asp:Label ID="loginState" runat="Server" Text="登录"></asp:Label> |&nbsp; </asp:HyperLink>
+                <asp:HyperLink ID="Register" runat="server" NavigateUrl="~/Account/Register.aspx" 
+                     Font-Underline="False" Height="24px"> 注册 &nbsp; </asp:HyperLink>
+                </div>
+                    <!-- <form name="myForm" id="search_tool" action="#" method="post">
+                    <input type="text" name="search" class="ddnewhead_search_input" id="search_text"
+                        autocomplete="off" placeholder="搜索条件">
+                    <input type="submit" value="" id="search_button">
+                    </form> -->
+                    <table width="595" style="border-left: solid  #F0F0F0 1px" class="title1" border="0"
+                        cellspacing="0" cellpadding="0">
+                        <tr>
+                            <th width="85" height="46" scope="col" style="width: 100%">
+                                <a id="nav_home" href="<%=ResolveUrl("~/index.aspx") %>">
+                                    <div class="text">
+                                        首页</div>
+                                </a>
+                            </th>
+                            <th width="85" scope="col">
+                                <a href="<%=titleUrl[0]%>" id="nav_aboutus" onclick="return menu2_onclick()">
+                                    <div class="text">
+                                        <%=titleName[0]%></div>
+                                </a>
+                            </th>
+                            <th width="85" scope="col">
+                                <a id="nav_new" href="<%=titleUrl[1]%>">
+                                    <div class="text">
+                                        <%=titleName[1]%></div>
+                                </a>
+                            </th>
+                            <th width="85" scope="col">
+                                <a id="nav_project" href="<%=titleUrl[2]%>">
+                                    <div class="text">
+                                        <%=titleName[2]%></div>
+                                </a>
+                            </th>
+                            <th width="85" scope="col">
+                                <a id="nav_plan" href="<%=titleUrl[3]%>">
+                                    <div class="text">
+                                        <%=titleName[3]%></div>
+                                </a>
+                            </th>
+                            <th width="85" scope="col">
+                                <a id="nav_recruit" href="<%=titleUrl[4]%>">
+                                    <div class="text">
+                                        <%=titleName[4]%></div>
+                                </a>
+                            </th>
+                            <th width="85" scope="col">
+                                <a id="nav_company" href="<%=titleUrl[5]%>">
+                                    <div class="text">
+                                        <%=titleName[5]%></div>
+                                </a>
+                            </th>
+                        </tr>
+                    </table>
+                    <div class="title-right">
+                        <a href="<%=titleUrl[6] %>">
+                            <img src="<%=buttonImage[8]%>" width=" 50" height="30" alt="image" /></a>
+                        <p>
+                            <a href="<%=titleUrl[6] %>">
+                                <%=titleName[6] %></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of Header -->
+        <!-- Content-->
+       <div align=center>
+       <table border="0" cellspacing="0" cellpadding="0" width="950" >
+       	<tr>
+       		<td align=left> <asp:ContentPlaceHolder ID="MainContent" runat="server" >
+        
+
+        </asp:ContentPlaceHolder></td>
+       	</tr>
+       </table>
+        
+      
+       </div>
+       
+        
+        
+
+       
+          
+        <!-- end of Content-->
+        <div id="footer">
+            <table class="under-title" width="950" border="0" cellpadding="10" cellspacing="10">
+                <tr>
+                    <th scope="col">
+                        <table width="950" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <!-- 修改 -->
+                                <asp:Repeater ID="Footer" runat="server">
+                                    <ItemTemplate>
+                                        <th width="130" scope="col">
+                                            <div align="center" class="footer_title">
+                                                <div class="title111">
+                                                    <a href="<%#ResolveUrl(((System.Xml.XmlNode)Container.DataItem).Attributes["url"].Value)%>">
+                                                        <%#((System.Xml.XmlNode)Container.DataItem).Attributes["value"].Value%></a>
+                                                </div>
+                                                <asp:Repeater ID="FooterItem" runat="server" DataSource='<%#((System.Xml.XmlNode)Container.DataItem).ChildNodes %>'>
+                                                    <ItemTemplate>
+                                                        <a href="<%#ResolveUrl(((System.Xml.XmlNode)Container.DataItem).Attributes["url"].Value) %>">
+                                                            <%#((System.Xml.XmlNode)Container.DataItem).InnerText%></a>
+                                                        <br />
+                                                    </ItemTemplate>
+                                                </asp:Repeater>
+                                            </div>
+                                        </th>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                                <!--
+              <th width="101" height="145" scope="col"> 
+			 
+			    <div align="center" class="footer_title"> <div class="title"><a  href="#"><strong>关于油站</strong></a></div>
+
+			          <a href="#"> 了解油站</a><br/>
+
+			         <a href="#"> 创始人</a><br/>
+
+			        <a href="#">FAQ </a><br/>
+
+			        <a href="#"> 联系油站</a><br/>
+
+			  </div>              </th>
+
+              <th width="101" scope="col"> <div align="center" class="footer_title"><div class="title"><a href="#"><strong>油站新闻</strong></a></div>
+
+                  <a href="#">新闻分类</a><br/>
+
+                  <a href="#">新闻归档 </a><br/>              
+
+              </div></th>
+
+              <th width="165" scope="col"> <div align="center" class="footer_title"><div><span class="title"><a href="#"><strong>油站招新</strong></a></span></div>
+
+                    <a href="#">成员感悟</a><br/>
+
+                  <a href="#">手机游戏方向</a><br/>
+
+                  <a href="#">营销型网站方向</a><br/>
+
+                  <a href="#"> 移动互联网方向</a><br/>
+
+                  <a href="#"> 教育技术方向</a>
+
+              </div></th>
+
+              <th width="141" scope="col">
+
+			    <div align="center" class="footer_title"><div class="title"><a href="#"><strong>油站计划</strong></a></div>
+
+                    <a  href="#"> 创意征集计划</a><br/> 
+
+                    <a href="#">立项计划</a><br/> 
+
+                    <a href="#">市场化计划</a><br/>			  
+
+	          </div></th>
+
+              <th width="188" scope="col">
+
+			    <div align="center" class="footer_title"><div class="title"><a href="#"><strong>油站项目</strong></a></div>
+
+                    <a href="#">智能几何教育平台</a><br/>
+
+                    <a href="#">移动销售平台</a><br/>
+
+                    <a  href="#">缤果手机游戏</a><br/>
+
+                    <a href="#"> 涂鸦课堂</a><br/>			  
+
+	          </div></th>
+
+              <th width="181" scope="col">
+
+                <div align="center" class="footer_title"><div class="title"><a href="#"><strong>合作企业</strong></a></div>
+
+                    <a href="#">缤果动漫</a><br/>
+
+                    <a href="#">德诚教育技术 </a><br/>
+
+                    <a href="#">财富数码</a><br/>	  
+
+              </div></th>
+              -->
+                                <th width="73" scope="col">
+                                    <!-- 修改 -->
+                                    <div class="footer_title">
+                                        <div class="title111">
+                                            <a href="<%=titleUrl[6] %>">
+                                                <%=titleName[6] %></a></div>
+                                        <asp:Repeater ID="Company" runat="server">
+                                            <ItemTemplate>
+                                                <a href="<%#ResolveUrl(((System.Xml.XmlNode)Container.DataItem).Attributes["url"].Value)%>">
+                                                    <%#((System.Xml.XmlNode)Container.DataItem).InnerText%></a><br />
+                                            </ItemTemplate>
+                                        </asp:Repeater>
+                                    </div>
+                                    <!-- 替换
+			    <div  class="footer_title"><div class="title"><a href="#"><strong> 无象数码</strong></a></div>
+
+                    <a href="#">目标</a><br/>
+
+                    <a href="#">团队成员</a><br/>
+
+                    <a href="#">投资组合</a><br/>			  
+
+	          </div>
+-->
+                                </th>
+                            </tr>
+                        </table>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <div class="footer_left">
+                            版权所有：数字创新加油站 &nbsp;&nbsp;&nbsp; 粤ICP备11098641号</div>
+                        <div class="footer_right">
+                            <a href="<%=ResolveUrl("~/oilStation/AboutOil.aspx?AboutOilID=3") %>">
+                                <img src="<%=ResolveUrl("~/images/联系油站.png") %>" alt="" width="26" height="12" />
+                                联系油站</a>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

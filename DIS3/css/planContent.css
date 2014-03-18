@@ -1,0 +1,136 @@
+﻿body
+{
+   
+    	background-color:#F9F9F9 ;
+    	padding:0px;
+    	margin:0px;
+    	position:relative;
+     height:auto;
+     display:block;
+     font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.tempate_main
+{display:block;
+    clear:both;
+    width:1000px;
+    margin:0 auto;
+  position:relative;
+  height:auto;
+}
+
+a:link, a:visited { color:#000000;  text-decoration: none; } 
+a:active, a:hover { color: #0000FF; text-decoration: none; cursor: pointer;}
+a{
+color:#000000;
+font-weight:normal;
+}
+
+h5
+{
+    display:inline;
+    padding:0px;
+    margin:0px;
+} 
+
+/* banner 图片 */
+#bannerWrap {
+	width: 100%;
+	height: 301px;
+	margin: 0 auto;
+	background: #f48351 url(../images/banner_repeater.jpg) repeat-x;
+}
+
+#navigator {
+	width: 950px;
+	margin:0 auto;
+	
+}
+/* end of banner */
+
+#plan-content
+{
+	float:left;
+	width: 1000px;
+	position:relative;
+    height:auto;
+    min-height:400px;
+
+}
+
+#plan-content-head
+{
+	position: relative;
+	height: auto;
+}
+
+.title_left_ban
+{
+ 	border-bottom: 1px solid #959393;
+ 	background-color:#CCCCCC;
+ 	font-size:16px;
+ 	width:1000px;
+    margin-top:20px;
+ 	height:20px;
+    padding-top:3px;
+ 	padding-left:9px;
+ 	padding-bottom:2px;
+}
+
+#plan-title
+{
+	font-size:22px;
+	text-align:center;
+ height:auto;
+}
+
+#plan-date,#plan-author,#plan-author span, #visit
+{
+	margin:3px;
+	font-weight:200;
+	font-size:13px;
+	text-align:center;
+	 height:auto;
+}
+
+.curoff
+{
+	margin:5px auto;
+	width:90%;
+	 height:auto;
+	text-align:center;
+}
+
+/*plans-content-text-*/
+#plan-cont
+{
+     padding-left:50px;
+      height:auto;
+
+}
+#plan-cont div,#plan-cont p,#plan-cont span
+{
+	font-size:14px;
+	margin:15px;
+	word-spacing:2px;
+	 height:auto;
+}
+#plan-cont h1,h2,h3,h4,h5,strong
+{
+	font-size:20px;
+	 height:auto;
+}
+/*end of content*/
+
+#flpage
+{
+   position:relative;
+   float:left;
+	width:90%;
+	height:40px;
+   margin-left:240px;
+   margin-bottom:10px;
+   margin-top:auto;
+}
